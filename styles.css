@@ -1,0 +1,153 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none; 
+    color: #1F524C, #418981, #F5A749, #F07539, #FDF0DB
+    
+    
+}
+
+ 
+:root {
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Quicksand', sans-serif;
+    
+   
+
+
+    
+    }
+   
+
+header {
+    background: #FDF0DB;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0% 30px;
+    position: fixed;
+    
+}
+
+.logo-icon {height: 40%;
+}
+
+.navbar, .navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    gap: 150px;
+}
+.navbar-list {gap: 30px;}
+.navbar-list a {
+    color: #F5A749;
+    font-size: 14px;
+}
+.navbar-list li:first-child > a {
+    color: #418981;
+    font-family: 'Abril Fatface'
+
+}
+.carro {
+font-weight: 600;
+border-radius: 10px;
+height: 30px;
+padding: 5px 10px;
+margin-right: 1rem;
+cursor: pointer;
+
+
+}
+
+main {
+    background: #418981;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+
+
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-width: 10px color #F07539 ;
+    width: 30%;    
+    background-color: #1F524C;
+    border-radius: 15px;
+    padding: 1%;
+}
+.hero-card p {
+    color:#F07539;
+    text-align: center;
+    font-weight: 800;
+   
+}
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Abril Fatface';
+    width: 70%;
+    color: #F5A749;
+}
+
+.hero-info a {
+    color: #F07539;
+    font-size: 15px;
+    font-family: 'Abril Fatface';
+    width: 160px;
+   cursor: pointer; 
+   background-color: #FDF0DB;
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+   
+}
+.hero-info p {
+    color: #FDF0DB;
+    font-size: 20px;
+    width: 70%; }
+
+.info-empresa {
+font-size: 18px;
+width: 60%;
+text-align: center;
+background-color: #FDF0DB;
+padding: 10px;
+border-radius: 10px;
+color:#1F524C;
+margin-bottom: 20px;
+}
+.info-empresa span {
+    font-style: italic;
+}
