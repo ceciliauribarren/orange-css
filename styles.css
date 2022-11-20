@@ -142,12 +142,96 @@ h2 {
 font-size: 18px;
 width: 60%;
 text-align: center;
-background-color: #FDF0DB;
 padding: 10px;
 border-radius: 10px;
-color:#1F524C;
-margin-bottom: 20px;
+color:#FDF0DB;
+
 }
 .info-empresa span {
     font-style: italic;
+}
+
+.tarjetas {
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+
+}
+
+.tarjetas a {
+    background-color: #FDF0DB;
+    margin: 20px;
+    padding: 20px 30px;
+    border-radius: 10%;
+    width: 50%;
+   
+    
+    
+}
+.tarjetas img {
+height: 100px;
+    
+}
+.tarjetas h3 {
+    color: #F07539;
+    margin: 10px;
+    
+}
+.tarjetas p {
+    color: #1F524C;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding-top: 60px;
+    gap: 20px;
+    padding-bottom: 65px;
+    color: #FDF0DB;
+    
+}
+
+.contactanos img{
+width: 13px;
+}
+.redes-imagenes {
+    padding-top: 10px;
+
+}
+
+
+.logo-contacto {
+    width: 150%;
+    background-color: #FDF0DB;
+    padding: 10px;
+    border-radius: 10%;
+}
+.empresa {
+    color: #FDF0DB;
+    gap: 10px;
+    display: flex
+}
+.datos-contacto h4{
+    padding-bottom: 5px;
+    color: #FDF0DB;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+footer {
+    
+    background-color: #1F524C;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+}
+footer img {
+    height: 30px;
+    padding-top: 15px;
+   
 }
