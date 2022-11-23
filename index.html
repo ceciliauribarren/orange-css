@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Falsa tienda</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,7 @@
            
         
         <nav class="navbar">
+            
             <ul class="navbar-list">
                 <li><a href="#">Home</a></li> 
                 <li><a href="#">Novedades</a></li>
@@ -26,7 +28,10 @@
                 <li><a href="#">Catálogo</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
-            <img src="./assets/shopping-cart_icon-icons.com_69913.png" alt="Carrito" class="carro">
+           
+                <img src="./assets/shopping-cart_icon-icons.com_69913.png" alt="Carrito" class="carro">
+            
+           
        
         </nav>
     </header>
@@ -47,49 +52,52 @@
             </div>
 
         </section>
-        <section class="info-empresa">
+        <section id="info-empresa">
             <p>
                 Somos una empresa dedicada a la venta y distribución digital de juguito de naranja. ¡Unite a esta comunidad y fortalecé tus defensas de 
                 <span>
                     forma remota
                 </span>
                !
-
             </p>
+
+            <h2>información valiosa</h2>
 
         </section>
         
-        <section class="tarjetas">
-          
-            <a href="#" class="t1">
-                <img src="./assets/que-es-una-naranja.png" alt="Una naranja">
-                <div>
+        <section id="tarjetas">
+         
+                 <div class="card">    
+                <a href="#">
+                    <img src="./assets/que-es-una-naranja.png" alt="Una naranja">
                     <h3>¿De dónde vienen las naranjas?</h3>
-                    <p>
-                        Todo lo que tenés que saber sobre esta fruta
-                    </p>
+                    <p>Todo lo que tenés que saber sobre esta fruta </p>
+                   </a>
+                </div> 
+    
+                <div class="card">
+                    <a href="#">
+                        <img src="./assets/hidratacion.png" alt="Media naranja">
+                       
+                            <h3>Hidratación, ¿Es real?</h3>
+                            <p>Según un estudio deberías tomar más que coca-cola</p>
+                       
+                    </a>
                 </div>
-            </a>
-
-
-            <a href="#" class="t2">
-                <img src="./assets/hidratacion.png" alt="Media naranja">
-                <div>
-                    <h3>Hidratación, ¿Es real?</h3>
-                    <p>Según un estudio deberías tomar más que coca-cola</p>
-                </div>
-            </a>
-
-           <a href="#" class="t3">
-            <img src="./assets/vitamina.png" alt="vitaminas">
-            <div>
-                <h3>Oye, te hacen faltan vitaminas</h3>
-                <p>vitaminas hu hu hu (Soda Stereo)</p>
-            </div>
-           </a>
+    
+              <div class="card">
+                <a href="#">
+                    <img src="./assets/vitamina.png" alt="vitaminas">
+                   
+                        <h3>Oye, te hacen faltan vitaminas</h3>
+                        <p>vitaminas hu hu hu (Soda Stereo)</p>
+                   
+                   </a>
+              </div>
+         
         </section>
 
-<section class="contacto">
+<section id="contacto">
     <div class="contactanos">
         <h2>contactanos</h2>
         <div class="datos-contacto">

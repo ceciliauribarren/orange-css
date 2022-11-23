@@ -1,0 +1,63 @@
+@media (max-width: 992px) {
+
+.navbar {
+    gap: 15px;
+}
+.carro {
+    margin-right: 0rem;
+}
+.navbar-list {
+    position: absolute;
+    top: 65px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    display: fle;
+    flex-direction: column;
+    background-color: #1F524C;
+    border: 2px solid cornsilk;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 0px;
+    align-items: flex-start;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+    display: none;
+}
+.navbar-list a {
+font-size: 15px;
+}
+#hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-info {
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.hero-info h2 {
+    font-size: 30px;
+}
+.hero-info p {
+    font-size: 20px;
+}
+.hero-card {
+    margin-top: 50px;
+    width: 40%;
+}
+#info-empresa {
+    max-width: 80%}
+
+}
+
+@media (max-width: 576px) {
+    #contacto {
+        flex-direction: column;
+    }
+}
